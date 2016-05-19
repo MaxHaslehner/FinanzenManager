@@ -56,28 +56,33 @@
             android:layout_height="wrap_content"
             android:text="Ausgabe Hinzufügen"
             android:id="@+id/button"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:onClick="addAusgabe" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Einnahme Hinzufügen"
             android:id="@+id/button2"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:nestedScrollingEnabled="false"
+            android:onClick="addEinnahme" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Statistik Anzeigen"
             android:id="@+id/button3"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:onClick="kategorieStatistik" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Verbesserungsvorschläge"
             android:id="@+id/button4"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:onClick="verbesserungen" />
 
     </LinearLayout>
 
