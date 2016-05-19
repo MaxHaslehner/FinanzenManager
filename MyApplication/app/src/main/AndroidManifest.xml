@@ -15,6 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AddAusgabe" />
+        <activity android:name=".AddEinnahme" />
+        <activity android:name=".KategorieStatistik" />
+        <activity android:name=".WochenStatistik" />
+        <activity android:name=".Verbesserungen"></activity>
     </application>
 
 </manifest>
